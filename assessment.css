@@ -1,0 +1,23 @@
+body
+{
+    background-color: #04A6EB;
+    color: #FDFFFF;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button
+{
+    padding: 5px 20px;  /*要素の内側の空白を指定、上下␣左右*/
+    background-color: #337AB7;
+    border-style: 2;
+    border-color: thistle;
+    color: rgb(255, 255, 0);
+}
+
+input
+{
+    height: 20px;
+    font-size: medium;
+}
