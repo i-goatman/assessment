@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>診断</title>
+    <link rel="stylesheet" href="assessment.css">
+</head>
+<body>
+    <h1>あなたの良いところは？</h1>
+    <p>診断したい名前を入力</p>
+    <input type="text" id="user-name" size="40" maxlength="20"> <!--入力欄のタグ-->
+    <button id="assessment">診断実行</button>   <!--ボタンタグ-->
+
+    <div id="result-area"></div>    <!--分割タグ。.js用のマークアップとして使うと便利。-->
+    <div id="tweet-area">
+        <!--         
+            <a href="https://twitter.com/intent/tweet?button_hashtag=あなたのいいところ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-text="結果文章" data-show-count="false">Tweet #あなたのいいところ</a>
+         -->
+         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        <!-- URIにおける"?"以降をクエリと言う。全角文字を使用する際はURIエンコードをおこなう。 -->
+    </div>
+
+    <script src="assessment.js"></script>
+</body>
+</html>
